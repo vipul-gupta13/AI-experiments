@@ -1,0 +1,14 @@
+{
+  "name": "webform-csv",
+  "version": "1.0.0",
+  "description": "Simple web form that saves submissions to a CSV file",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
